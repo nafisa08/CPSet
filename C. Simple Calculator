@@ -1,0 +1,38 @@
+problem link: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/C
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define endl '\n'
+#define yes cout << "YES" << endl
+#define no cout << "NO" << endl
+#ifdef LOCAL
+#include "algo/debug.h"
+#else
+#define debug(...) 42
+#endif
+const double PI = acos(-1);
+const ll MOD = 1e9 + 7;
+
+void solve()
+{
+    ll x,y;
+    cin>>x>>y;
+    cout<<x<<" + "<<y<<" = "<<x+y<<endl;
+    cout<<x<<" * "<<y<<" = "<<x*y<<endl;
+    cout<<x<<" - "<<y<<" = "<<x-y<<endl;
+    
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    // ll tstcs;
+    // cin >> tstcs;
+    // while (tstcs--)
+    {
+        solve();
+    }
+    return 0;
+}
